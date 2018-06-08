@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is a sample html file</title>
+  </head>
+  <body>
+    git diff is very useful. It can show you the differences between files.
+    After adding some text to README.md, I did the following.
+    git diff README.md
+    diff --git a/README.md b/README.md
+    index 6d28420..fec49a6 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -1,2 +1,2 @@
+    # testing-git
+    -Repository just for testing git features
+    +Repository just for testing git features. Hopefully this is useful
+
+    and inside main repository, if I don't know file name, I could just do.
+    git diff
+    and it could give back
+    diff --git a/README.md b/README.md
+    index 6d28420..fec49a6 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -1,2 +1,2 @@
+
+    -Repository just for testing git features
+    +Repository just for testing git features. Hopefully this is useful
+  </body>
+</html>
